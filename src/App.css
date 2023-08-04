@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

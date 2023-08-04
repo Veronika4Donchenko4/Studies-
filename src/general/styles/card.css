@@ -1,0 +1,65 @@
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card--gray {
+    background-color: #ccc;
+}
+
+.card--pink {
+    background-color: pink;
+}
+
+.card--aqua {
+    background-color: aqua;
+}
+
+.card__info {
+    margin-bottom: 15px;
+}
+
+.card__title {
+    font-weight: 500;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card__desc {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.card__image {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.card button {
+    background-color: transparent;
+    color: #2d3233;
+    border: 1px solid #424344;
+    border-radius: 0;
+    padding: 4px;
+    font-size: 12px;
+    transition: .3s;
+}
+
+.card button:hover {
+    background-color: #dbe5ee;
+}

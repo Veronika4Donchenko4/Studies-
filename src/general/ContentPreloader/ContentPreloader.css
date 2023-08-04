@@ -1,0 +1,31 @@
+.container {
+    margin-top: 250px;
+}
+
+
+.anim-text {
+    margin-top: 10px;
+}
+
+@keyframes rotate {
+    0% {
+        background-color: #f3184b;
+        transform: rotate(0);
+    }
+    25% {
+        background-color: #ffd166;
+        transform: rotate(45deg);
+    }
+    50% {
+        background-color: #06d6a0;
+        transform: rotate(90deg);
+    }
+    75% {
+        background-color: #2cbae9;
+        transform: rotate(135deg);
+    }
+    100% {
+        background-color: #f3184b;
+        transform: rotate(180deg);
+    }
+}
